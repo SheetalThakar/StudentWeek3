@@ -10,10 +10,25 @@ package studentweek3;
  * @author mehta
  */
 public class Student {
+
+    /**
+     * @return the PartTime
+     */
+    public boolean isPartTime() {
+        return PartTime;
+    }
+
+    /**
+     * @param PartTime the PartTime to set
+     */
+    public void setPartTime(boolean PartTime) {
+        this.PartTime = PartTime;
+    }
     
     private int ID;
     private String firstName;
     private int MaxCourse;
+    private boolean PartTime;
 
     /**
      * @return the ID
