@@ -11,6 +11,12 @@ package studentweek3;
  */
 public class Student {
 
+    
+    private int ID;
+    private String firstName;
+    private int MaxCourse;
+    private boolean PartTime;
+
     /**
      * @return the PartTime
      */
@@ -25,11 +31,6 @@ public class Student {
         this.PartTime = PartTime;
     }
     
-    private int ID;
-    private String firstName;
-    private int MaxCourse;
-    private boolean PartTime;
-
     /**
      * @return the ID
      */
